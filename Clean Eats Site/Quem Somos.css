@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    margin-top:15px;
+    margin-left: 40px;
+
+}
+#logo{
+    width: 20px;
+    height: 10px;
+    
+}
+#logoName{
+    color: #426b1f;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+#busca{
+    
+    
+    display: flex;
+   
+}
+
+#busca a{
+    color:black;
+    text-decoration: none;
+    margin-right:100px;
+    margin-top: 50px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+#busca a:hover{
+    color: #8bc05d;
+    border-radius: 20%;
+    transition: 0.5s;
+    
+   
+
+}
+#busca_contato{
+    margin-left:100px;
+
+}
+#busca input{
+    border-radius: 8px;
+    height: 25px;
+    margin-top: 40px;
+    color: rgb(153, 153, 153);
+    border-color: azure;
+
+}
+#busca button{
+    background-color: #6ea141;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-right:50px;
+    border-radius: 15%;
+    margin-top:35px;
+    border: none;
+    
+    
+}
+#a_pesquisar{
+    color: white;
+    width: 100px;
+    height: 35px;
+   
+}
+#button_pesquisar{
+    margin-left: 20px;
+}
+
+#a_pedir{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#a_pedir:first-child{
+    color: white;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#a_pesquisar:first-child{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller; 
+}
+#main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+#quem_somos{
+    margin-left: 30px;
+    
+}
+#texto{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}

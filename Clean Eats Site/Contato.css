@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    margin-top:15px;
+    margin-left: 40px;
+
+}
+#logo{
+    width: 20px;
+    height: 10px;
+    
+}
+#logoName{
+    color: #426b1f;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+#busca{
+    border-color: black;
+    border-style: solid;
+    display: flex;
+   
+}
+
+#busca a{
+    color:black;
+    text-decoration: none;
+    margin-right:90px;
+    margin-top: 50px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+#busca a:hover{
+    color: #8bc05d;
+    border-radius: 20%;
+    transition: 0.5s;
+    
+   
+
+}
+#busca_contato{
+    margin-left:100px;
+
+}
+#busca input{
+    border-radius: 8px;
+    height: 25px;
+    margin-top: 40px;
+    color: rgb(153, 153, 153);
+    border-color: azure;
+
+}
+#busca button{
+    background-color: #6ea141;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-right:50px;
+    border-radius: 15%;
+    margin-top:35px;
+    border: none;
+    
+    
+}
+#a_pesquisar{
+    color: white;
+    width: 100px;
+    height: 35px;
+   
+}
+#button_pesquisar{
+    margin-left: 20px;
+}
+
+#a_pedir{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#a_pedir:first-child{
+    color: white;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#a_pesquisar:first-child{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller; 
+}
+
+#main{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-left: 30px;
+}
+.contato1{
+   margin-left: 450px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contato1 h3{
+    margin-left: 45px;
+}
+.contato1 p{
+    margin-left: 45px;
+    
+}
+.contato1 input{
+    margin-left: 35px;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contato1 button{
+    margin-left: 35px;
+}
+.contato2{
+   margin-left:100px ;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.contato2 h3{
+    margin-left: 45px;
+}
+.contato2 p{
+    margin-left: 45px;
+    
+}
+.contato2 input{
+    margin-left: 35px;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+.contato2 button{
+    margin-left: 35px;
+}
+.contato3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.contato3 h3{
+    margin-left: 95px;
+}
+.contato3 p{
+    margin-left: 175px;
+    
+}
+.contato3 input{
+    margin-left: 155px;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contato3 button{
+    margin-left: 160px;
+}
+input{
+    color: rgb(146, 146, 146);
+}
+#contatos_rapidos{
+    display: flex;
+    align-items: center;
+}
+#btn_inscreverse{
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+
+}
+#btn_inscreverse a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#termos_de_servico{
+    margin-top: 30px;
+    font-size: small;
+    color:rgb(146, 146, 146) ;
+    text-align: center;
+}
+#termos_de_servico a{
+    text-decoration: none;
+    color: black;
+}
+#termos_de_servico3{
+    margin-right: 450px;
+    margin-top: 30px;
+    font-size: small;
+    color:rgb(146, 146, 146) ;
+    text-align: center;
+
+}
+#termos_de_servico3 a{
+    text-decoration: none;
+    color: black;
+}
+

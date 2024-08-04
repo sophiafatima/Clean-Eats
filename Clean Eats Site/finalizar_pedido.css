@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 40%;
+    margin-top:15px;
+    margin-left: 40px;
+
+}
+#logo{
+    width: 20px;
+    height: 10px;
+    
+}
+#logoName{
+    color: #426b1f;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+#busca{
+    
+    
+    display: flex;
+   
+}
+
+#busca a{
+    color:black;
+    text-decoration: none;
+    margin-right:100px;
+    margin-top: 50px;
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+#busca a:hover{
+    color: #8bc05d;
+    border-radius: 20%;
+    transition: 0.5s;
+    
+   
+
+}
+#busca_contato{
+    margin-left:90px;
+
+}
+#busca input{
+    border-radius: 8px;
+    height: 25px;
+    margin-top: 40px;
+    color: rgb(153, 153, 153);
+    border-color: azure;
+
+}
+#busca button{
+    background-color: #6ea141;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-right:50px;
+    border-radius: 15%;
+    margin-top:35px;
+    border: none;
+    
+    
+}
+#a_pesquisar{
+    color: white;
+    width: 100px;
+    height: 35px;
+    
+   
+}
+#button_pesquisar{
+    margin-left: 20px;
+}
+
+#a_pedir{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#a_pedir:first-child{
+    color: white;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#a_pesquisar:first-child{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller; 
+}
+
+#main{
+    border-color: 1px solid #ccc ;
+    
+    display: flex;
+}
+#produtos_mais_pedidos {
+    color: black;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+   
+}
+#data_atualizado{
+    color: rgb(101, 110, 110);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-left:470px ;
+    margin-top: 20px;
+}
+#main_botoes a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main_botoes button{
+    border:none;
+    border-radius: 40%;
+    height: 35px;
+    
+}
+#main_botoes button:first-child{
+    background-color: #6ea141;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+
+}
+#grid_container {
+    display: grid;
+    grid-template-columns: 365px; 
+    grid-template-rows: repeat(4,360px); 
+    gap: 10px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.grid_item {
+    display: grid;  
+    background-color: #def8c8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 40px;
+    
+}
+
+.imagem{
+    grid-row: 1 / 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    display: grid;
+    grid-row: 2 / 3; 
+    background-color:#def8c8; 
+    border-radius: 8px;
+}
+.informacoes:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400; 
+}
+.preco{
+    color: #6ea141;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.restaurante{
+color: #919191;
+font-family: Arial, Helvetica, sans-serif;
+}
+#macarronada{
+/*Nome dado por ser a foto do produto*/
+width: 360px;
+height: 150px;
+image-rendering: optimizeQuality;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+#sanduiche{
+/*Nome dado por ser a foto do produto*/
+border-radius: 8px;
+width: 360px;
+height: 150px;
+margin-bottom: 20px;
+}
+#salada_frango{
+/*Nome dado por ser a foto do produto*/
+border-radius: 8px;
+width: 360px;
+height: 150px;
+margin-bottom: 20px;
+}
+#finalizar_compra{
+    margin-left: 47%;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    
+   }
+   #finalizar_compra img{
+       height: 50px;
+       width: 50px;
+       margin-left: 500px;
+       margin-top: 20px;
+   }
+   #finalizar_compra h4{
+       
+       margin-left: 480px;
+       font-weight: 900;
+       
+   }
+   #finalizar_compra h4:hover{
+       color: red;
+       transition: 0.5s;
+   }
+   #finalizar_compra a{
+    
+       text-decoration: none; 
+       color: black;
+   }
+#frete{
+    margin-left: 300px;
+    color: red;
+}
+#total{
+    margin-left: 300px;
+    color: red;
+}
+.btn_finalizar{
+    background-color: #426b1f;
+    border-radius: 8px;
+    height: 35px;
+    width: 200px;
+    margin-left: 430px;
+    border-style: none;
+    margin-top: 20px;
+    color: white;
+}
+#finalizar{
+    font-style: normal;
+    font-size: larger;
+    color: white;
+    
+}
